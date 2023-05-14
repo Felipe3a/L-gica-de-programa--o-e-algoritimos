@@ -4,10 +4,13 @@
     const b = a * 2   // b = 40
     const c = a / 2   // c = 10
     const d = a - 2   // d = 18
-    // const e = a + 2  //  e= 202 ???
+    //const e = a +2  e = 202??
+    /* const e = a + 2: Dessa forma o resultadode e seria  202, ou seja concatenaria o " texto " const a com o numeral 2,
+    para o fazer a soma corretamente é nesseçario transformar a string "const a = "20"" em numeral para isso usamos o método Nunber(), 
+    (veja na linha 10). 
+    */
     const e = Number(a) + 2 // e = 22
-
-
+/* Agora a variavel "a" é inicilmente convertida em número e após ocoorre a soma do valor 2, gerando como resultado 22. */
     alert("e = " + e)  //exibe o valor de uma variável
 
 
